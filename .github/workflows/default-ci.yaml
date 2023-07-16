@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     strategy:
       matrix:
-        arch: [Win32, x64]
+        arch: [Win32]
 
     steps:
     - uses: actions/checkout@v2
